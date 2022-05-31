@@ -1,0 +1,2 @@
+2022-05-25T09:33:42+00:00 CRITICAL WP_Query::is_page(): Cannot use output buffering in output buffering display handlers in C:\xampp\htdocs\yacShop\wp-includes\class-wp-query.php on line 4121
+

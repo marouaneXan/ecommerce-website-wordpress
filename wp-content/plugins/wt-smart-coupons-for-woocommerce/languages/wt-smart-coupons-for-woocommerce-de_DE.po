@@ -1,0 +1,1580 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Coupons for WooCommerce\n"
+"POT-Creation-Date: 2022-01-27 14:36+0530\n"
+"PO-Revision-Date: 2022-01-27 14:36+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wt-smart-coupon.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-wt-duplicate-coupon.php:21
+#: admin/class-wt-smart-coupon-admin.php:96
+#: admin/class-wt-smart-coupon-admin.php:565
+msgid "You do not have sufficient permission to perform this operation"
+msgstr "Sie haben nicht die Berechtigung diese Aktion auszuführen"
+
+#: admin/class-wt-duplicate-coupon.php:25
+msgid "No post to duplicate has been supplied!"
+msgstr "Es liegt kein Beitrag vor, der dupliziert werden könnte!"
+
+#: admin/class-wt-duplicate-coupon.php:105
+msgid "Post creation failed, could not find original post: "
+msgstr ""
+"Beitrag Erstellung fehlgeschlagen, konnte ursprünglichen Beitrag nicht "
+"finden: "
+
+#: admin/class-wt-duplicate-coupon.php:117
+msgid "Duplicate"
+msgstr "Duplizieren"
+
+#: admin/class-wt-duplicate-coupon.php:118
+msgid "Duplicate this item"
+msgstr "Element duplizieren"
+
+#: admin/class-wt-smart-coupon-admin.php:67
+msgid "Quick links"
+msgstr "Quick Links"
+
+#. Plugin Name of the plugin/theme
+#: admin/class-wt-smart-coupon-admin.php:85
+msgid "Smart Coupons for WooCommerce"
+msgstr "Intelligente Coupons für WooCommerce"
+
+#: admin/class-wt-smart-coupon-admin.php:238
+msgid "Copied to clipboard"
+msgstr "In Zwischenablage kopiert"
+
+#: admin/class-wt-smart-coupon-admin.php:254
+msgid "Checkout options"
+msgstr "Einstellungen für Bestell- und Bezahlvorgang"
+
+#: admin/class-wt-smart-coupon-admin.php:260
+#: admin/partials/_upgrade_to_pro_metabox.php:30
+msgid "Give away products"
+msgstr "Produkte verschenken"
+
+#: admin/class-wt-smart-coupon-admin.php:305
+msgid "Shipping methods"
+msgstr "Versandarten"
+
+#: admin/class-wt-smart-coupon-admin.php:306
+msgid "Any shipping method"
+msgstr "Versandart"
+
+#: admin/class-wt-smart-coupon-admin.php:323
+msgid ""
+"Coupon will be applicable if any of these shipping methods are selected."
+msgstr ""
+"Der Gutschein ist gültig, wenn eine dieser Versandarten ausgewählt wird."
+
+#: admin/class-wt-smart-coupon-admin.php:328
+msgid "Payment methods"
+msgstr "Zahlungsarten"
+
+#: admin/class-wt-smart-coupon-admin.php:330
+msgid "Any payment method"
+msgstr "Jede Zahlungsmethode"
+
+#: admin/class-wt-smart-coupon-admin.php:355
+msgid "Coupon will be applicable if any of these payment methods are selected."
+msgstr ""
+"Der Gutschein ist gültig, wenn eine dieser Zahlungsmethoden ausgewählt wird."
+
+#: admin/class-wt-smart-coupon-admin.php:359
+msgid "Applicable Roles"
+msgstr "Anwendbare Rollen"
+
+#: admin/class-wt-smart-coupon-admin.php:368
+msgid "Any role"
+msgstr "Jede Rolle"
+
+#: admin/class-wt-smart-coupon-admin.php:380
+msgid ""
+"Coupon will be applicable if customer belongs to any of these User Roles."
+msgstr ""
+"Der Gutschein ist gültig, wenn der Kunde einer dieser Benutzerrollen "
+"angehört."
+
+#: admin/class-wt-smart-coupon-admin.php:394
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/class-wt-smart-coupon-admin.php:395
+msgid "Support"
+msgstr "Unterstützen"
+
+#: admin/class-wt-smart-coupon-admin.php:396
+#: admin/partials/wt-smart-coupon-admin-display.php:64
+#: admin/wt-help/wt-smart-coupon-help.php:38
+#: admin/wt-help/wt-smart-coupon-help.php:41
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: admin/class-wt-smart-coupon-admin.php:408
+msgid "Review"
+msgstr "Bewertung"
+
+#: admin/class-wt-smart-coupon-admin.php:409
+msgid "Premium Upgrade"
+msgstr "Premium Upgrade"
+
+#: admin/class-wt-smart-coupon-admin.php:429
+msgid "Product condition:"
+msgstr "Produktzustand:"
+
+#: admin/class-wt-smart-coupon-admin.php:432
+#: admin/class-wt-smart-coupon-admin.php:453
+msgid "Any."
+msgstr ""
+"Das Abonnement wird nach Ablauf dieser Zeitspanne automatisch auslaufen. "
+"Diese Länge gilt zusätzlich zu jedem kostenlosen Testzeitraum oder Zeitdauer "
+"vor einem synchronisierten ersten Verlängerungsdatum."
+
+#: admin/class-wt-smart-coupon-admin.php:433
+#: admin/class-wt-smart-coupon-admin.php:454
+msgid "All."
+msgstr ""
+"Der Versand von Abonnementprodukten wird normalerweise bei der "
+"Erstbestellung und allen Verlängerungsbestellungen berechnet. Aktivieren Sie "
+"diese Option, um den Versand bei der Erstbestellung nur einmal zu berechnen."
+
+#: admin/class-wt-smart-coupon-admin.php:435
+msgid ""
+"Coupon will be applied if any of the products from the below is available in "
+"the cart; all of option requires that the cart contains all of the listed "
+"products."
+msgstr ""
+"Der Gutschein wird angewendet, wenn eines der unten aufgeführten Produkte im "
+"Warenkorb verfügbar ist. Alle Optionen setzen voraus, dass der Warenkorb "
+"alle aufgelisteten Produkte enthält."
+
+#: admin/class-wt-smart-coupon-admin.php:450
+msgid "Category condition:"
+msgstr "Kategoriebedingung:"
+
+#: admin/class-wt-smart-coupon-admin.php:457
+msgid ""
+"Coupon will be applied if any of the categories from the below is available "
+"in the cart; all of option requires that the cart contains all of the listed "
+"categories."
+msgstr ""
+"Der Gutschein wird angewendet, wenn eine der unten aufgeführten Kategorien "
+"im Warenkorb verfügbar ist. Alle Optionen setzen voraus, dass der Warenkorb "
+"alle aufgelisteten Kategorien enthält."
+
+#: admin/class-wt-smart-coupon-admin.php:462
+msgid "Matching products"
+msgstr "Passende Artikel"
+
+#: admin/class-wt-smart-coupon-admin.php:469
+msgid "Minimum quantity of matching products"
+msgstr "Mindestmenge an passenden Produkten"
+
+#: admin/class-wt-smart-coupon-admin.php:470
+#: admin/class-wt-smart-coupon-admin.php:494
+msgid "No minimum"
+msgstr "Kein Mindestbetrag"
+
+#: admin/class-wt-smart-coupon-admin.php:471
+msgid ""
+"Minimum quantity of the products that match the given product or category "
+"restrictions. If no product or category restrictions are specified, the "
+"total number of products is used."
+msgstr ""
+"Mindestmenge der Produkte, die den angegebenen Produkt- oder "
+"Kategoriebeschränkungen entsprechen. Wenn keine Produkt- oder "
+"Kategorieeinschränkungen angegeben sind, wird die Gesamtzahl der Produkte "
+"verwendet."
+
+#: admin/class-wt-smart-coupon-admin.php:481
+msgid "Maximum quantity of matching products"
+msgstr "Maximale Anzahl passender Produkte"
+
+#: admin/class-wt-smart-coupon-admin.php:482
+#: admin/class-wt-smart-coupon-admin.php:506
+msgid "No maximum"
+msgstr "Kein Maximalbetrag"
+
+#: admin/class-wt-smart-coupon-admin.php:483
+msgid ""
+"Maximum quantity of the products that match the given product or category "
+"restrictions. If no product or category restrictions are specified, the "
+"total number of products is used."
+msgstr ""
+"Maximale Anzahl der Produkte, die den angegebenen Produkt- oder "
+"Kategoriebeschränkungen entsprechen. Wenn keine Produkt- oder "
+"Kategorieeinschränkungen angegeben sind, wird die Gesamtzahl der Produkte "
+"verwendet."
+
+#: admin/class-wt-smart-coupon-admin.php:493
+msgid "Minimum subtotal of matching products"
+msgstr "Minimale Zwischensumme übereinstimmender Produkte"
+
+#: admin/class-wt-smart-coupon-admin.php:495
+msgid ""
+"Minimum price subtotal of the products that match the given product or "
+"category restrictions."
+msgstr ""
+"Mindestpreis Zwischensumme der Produkte, die den angegebenen Produkt- oder "
+"Kategoriebeschränkungen entsprechen."
+
+#: admin/class-wt-smart-coupon-admin.php:505
+msgid "Maximum subtotal of matching products"
+msgstr "Maximale Zwischensumme übereinstimmender Produkte"
+
+#: admin/class-wt-smart-coupon-admin.php:507
+msgid ""
+"Maximum price subtotal of the products that match the given product or "
+"category restrictions."
+msgstr ""
+"Höchstpreis Zwischensumme der Produkte, die den angegebenen Produkt- oder "
+"Kategoriebeschränkungen entsprechen."
+
+#: admin/class-wt-smart-coupon-admin.php:536
+msgid "Please choose a simple product"
+msgstr "Bitte wählen Sie ein einfaches Produkt"
+
+#: admin/class-wt-smart-coupon-admin.php:538
+msgid "Free Products"
+msgstr "Kostenlose Produkte"
+
+#: admin/class-wt-smart-coupon-admin.php:539
+msgid "Search for a product&hellip;"
+msgstr "Nach einem Produkt suchen&hellip;"
+
+#: admin/class-wt-smart-coupon-admin.php:549
+msgid ""
+"A single quantity of the specified free product is added to the customer's "
+"cart when the coupon is applied. However, the corresponding tax and shipping "
+"charges are not exempted."
+msgstr ""
+"Gilt nur für einfache Produkte. Eine einzelne Menge des angegebenen Produkts "
+"wird beim Anlegen des Gutscheins in den Warenkorb des Kunden hinzugefügt. "
+"Die entsprechenden Steuer- und Versandkosten sind jedoch nicht befreit"
+
+#: admin/class-wt-smart-coupon-admin.php:600
+msgid "My Account"
+msgstr "Mein Konto"
+
+#: admin/class-wt-smart-coupon-admin.php:601
+#: admin/freevspro/views/comparison-table.php:93
+msgid "Checkout"
+msgstr "Auschecken"
+
+#: admin/class-wt-smart-coupon-admin.php:605
+msgid "Make coupon available in"
+msgstr "Gutschein verfügbar machen in"
+
+#: admin/class-wt-smart-coupon-admin.php:606
+msgid "Please select"
+msgstr "Bitte auswählen"
+
+#: admin/class-wt-smart-coupon-admin.php:615
+msgid "Make coupon available in the selected pages"
+msgstr "Stellen Sie den Gutschein auf den ausgewählten Seiten zur Verfügung"
+
+#: admin/class-wt-smart-coupon-admin.php:660
+msgid "Coupons"
+msgstr "Gutscheine"
+
+#: admin/class-wt-smart-coupon-admin.php:662
+msgid "Add coupon"
+msgstr "Gutschein hinzufügen"
+
+#: admin/class-wt-smart-coupon-admin.php:688
+msgid "Coupon"
+msgstr "Coupon"
+
+#: admin/class-wt-smart-coupon-admin.php:689
+msgid "Coupon category"
+msgstr "Coupon Timer"
+
+#: admin/class-wt-smart-coupon-admin.php:690
+msgid "Layouts"
+msgstr "Layouts"
+
+#: admin/class-wt-smart-coupon-settings.php:103
+msgid "Done! Updated Smart Coupon settings."
+msgstr "Erledigt! Die Smart Coupon-Einstellungen wurden aktualisiert."
+
+#: admin/class-wt-smart-coupon-settings.php:140
+msgid "Coupon layouts"
+msgstr "Coupon Startdatum"
+
+#: admin/class-wt-smart-coupon-settings.php:144
+msgid "Available coupons"
+msgstr "Verfügbare Gutscheine"
+
+#: admin/class-wt-smart-coupon-settings.php:148
+#: admin/class-wt-smart-coupon-settings.php:185
+#: admin/class-wt-smart-coupon-settings.php:224
+msgid "Background color"
+msgstr "Hintergrund Farbe"
+
+#: admin/class-wt-smart-coupon-settings.php:155
+#: admin/class-wt-smart-coupon-settings.php:193
+#: admin/class-wt-smart-coupon-settings.php:232
+msgid "Foreground color"
+msgstr "Vordergrundfarbe"
+
+#: admin/class-wt-smart-coupon-settings.php:169
+msgid "Used coupons"
+msgstr "Gebrauchte Gutscheine"
+
+#: admin/class-wt-smart-coupon-settings.php:181
+msgid "Display used coupons in My account?"
+msgstr "Verwendete Gutscheine in MyAccount anzeigen?"
+
+#: admin/class-wt-smart-coupon-settings.php:208
+msgid "Expired coupons"
+msgstr "Abgelaufene Gutscheine"
+
+#: admin/class-wt-smart-coupon-settings.php:220
+msgid "Display expired coupons in My account?"
+msgstr "Abgelaufene Gutscheine in MyAccount anzeigen?"
+
+#: admin/class-wt-smart-coupon-settings.php:248
+msgid "Save"
+msgstr "Guardar"
+
+#: admin/coupon-start-date/class-wt-smart-coupon-start-date.php:38
+msgid "Coupon start date"
+msgstr "Coupon Startdatum"
+
+#: admin/coupon-start-date/class-wt-smart-coupon-start-date.php:73
+#, php-format
+msgid "Sorry, this coupon only available after %s"
+msgstr "Entschuldigung, dieser Gutschein ist erst nach %s verfügbar"
+
+#: admin/exclude-product/class-wt-exclude-product-for-coupon.php:64
+msgid "Exclude from coupons"
+msgstr "Von Gutscheinen ausschließen"
+
+#: admin/exclude-product/class-wt-exclude-product-for-coupon.php:65
+msgid "Exclude this product from coupon discounts"
+msgstr "Schließen Sie dieses Produkt von Gutscheinrabatten aus"
+
+#: admin/exclude-product/class-wt-exclude-product-for-coupon.php:136
+msgid "Sorry, this coupon is not applicable for selected products."
+msgstr "Dieser Gutschein gilt leider nicht für ausgewählte Produkte."
+
+#: admin/freevspro/freevspro.php:39
+msgid "GDPR Cookie Consent (CCPA Ready)"
+msgstr "DSGVO-Cookie-Zustimmung (CCPA Ready)"
+
+#: admin/freevspro/freevspro.php:40
+msgid ""
+"This plugin will assist you in making your website GDPR (RGPD, DSVGO) "
+"compliant."
+msgstr ""
+"Dieses Plugin hilft Ihnen dabei, Ihre Website DSGVO-konform (RGPD, DSVGO) zu "
+"machen."
+
+#: admin/freevspro/freevspro.php:45
+msgid "Import Export WordPress Users and WooCommerce Customers"
+msgstr "Importieren Exportieren von WordPress-Benutzern und WooCommerce-Kunden"
+
+#: admin/freevspro/freevspro.php:46
+msgid ""
+"This plugin allows you to import and export WordPress users and WooCommerce "
+"customers quickly and easily."
+msgstr ""
+"Mit diesem Plugin können Sie WordPress-Benutzer und WooCommerce-Kunden "
+"schnell und einfach importieren und exportieren."
+
+#: admin/freevspro/freevspro.php:50
+msgid "Order XML File Export Import for WooCommerce"
+msgstr "XML-Datei-Export-Import für WooCommerce bestellen"
+
+#: admin/freevspro/freevspro.php:51
+msgid ""
+"The Order XML File Export Import Plugin for WooCommerce will export your "
+"WooCommerce orders in XML format."
+msgstr ""
+"Das Bestell-XML-Datei-Export-Import-Plugin für WooCommerce exportiert Ihre "
+"WooCommerce-Bestellungen im XML-Format."
+
+#: admin/freevspro/freevspro.php:55
+msgid "Sequential Order Number for WooCommerce"
+msgstr "Sequenzielle Bestellnummer für WooCommerce"
+
+#: admin/freevspro/freevspro.php:56
+msgid ""
+"Using this plugin, you will always get sequential order number for "
+"woocommerce."
+msgstr ""
+"Mit diesem Plugin erhalten Sie immer eine fortlaufende Bestellnummer für "
+"Woocommerce."
+
+#: admin/freevspro/freevspro.php:61
+msgid "WordPress Migration & Duplicator"
+msgstr "WordPress-Migration & Duplikator"
+
+#: admin/freevspro/freevspro.php:62
+msgid ""
+"This plugin exports your WordPress website media files, plugins and themes "
+"including the database with a single click."
+msgstr ""
+"Dieses Plugin exportiert Ihre WordPress-Website-Mediendateien, Plugins und "
+"Themes einschließlich der Datenbank mit einem einzigen Klick."
+
+#: admin/freevspro/freevspro.php:67
+msgid "PayPal Express Checkout Payment Gateway for WooCommerce"
+msgstr "PayPal Express Checkout Payment Gateway für WooCommerce"
+
+#: admin/freevspro/freevspro.php:68
+msgid ""
+"With this plugin, your customer can use their credit cards or PayPal Money "
+"to make order from cart page itself."
+msgstr ""
+"Mit diesem Plugin kann Ihr Kunde seine Kreditkarten oder PayPal Money "
+"verwenden, um Bestellungen auf der Warenkorbseite selbst zu tätigen."
+
+#: admin/freevspro/freevspro.php:78
+msgid "Related Products for WooCommerce"
+msgstr "Verwandte Produkte für WooCommerce"
+
+#: admin/freevspro/freevspro.php:79
+msgid ""
+"This plugin allows you to choose related products for a particular product."
+msgstr ""
+"Mit diesem Plugin können Sie verwandte Produkte für ein bestimmtes Produkt "
+"auswählen."
+
+#: admin/freevspro/freevspro.php:85
+msgid "Decorator – WooCommerce Email Customizer"
+msgstr "Decorator – WooCommerce E-Mail Customizer"
+
+#: admin/freevspro/freevspro.php:86
+msgid "Customize your WooCommerce emails now and stand out from the crowd!"
+msgstr ""
+"Passen Sie jetzt Ihre WooCommerce-E-Mails an und heben Sie sich von der "
+"Masse ab!"
+
+#: admin/freevspro/freevspro.php:118
+msgid "Download"
+msgstr "Download"
+
+#: admin/freevspro/freevspro.php:128
+msgid "OTHER FREE SOLUTIONS FROM WEBTOFFEE"
+msgstr "WEITERE KOSTENLOSE LÖSUNGEN VON WEBTOFFEE"
+
+#: admin/freevspro/freevspro.php:155
+msgid "Free vs. Pro"
+msgstr "Kostenlos vs. Pro"
+
+#: admin/freevspro/freevspro.php:166
+msgid ""
+"Create and offer coupons based on customers’ purchase history Eg: First-"
+"order coupons, next-order, or nth order coupons.\n"
+msgstr ""
+"Erstellen und bieten Sie Coupons basierend auf der Kaufhistorie der Kunden "
+"an. Beispiel: Coupons der ersten Bestellung, Coupons der nächsten Bestellung "
+"oder der n-ten Bestellung.\n"
+
+#: admin/freevspro/freevspro.php:168
+msgid "Create and sell store credits coupons"
+msgstr "Gutscheine für Shop-Guthaben erstellen und verkaufen"
+
+#: admin/freevspro/freevspro.php:169
+msgid "Email gift cards in beautiful templates"
+msgstr "E-Mail-Geschenkkarten in schönen Vorlagen"
+
+#: admin/freevspro/freevspro.php:170
+msgid "Restrict coupons based on country"
+msgstr "Gutscheine je nach Land einschränken"
+
+#: admin/freevspro/freevspro.php:171
+#: admin/freevspro/views/comparison-table.php:117
+msgid "Import coupons"
+msgstr "Gutscheine importieren"
+
+#: admin/freevspro/freevspro.php:172
+#: admin/freevspro/views/comparison-table.php:122
+msgid "Bulk generate coupons"
+msgstr "Bulk-Coupons generieren"
+
+#: admin/freevspro/freevspro.php:173
+msgid "Create signup & abandoned cart coupons"
+msgstr "Erstellen Sie Gutscheine für Anmeldung und abgebrochene Warenkörbe"
+
+#: admin/freevspro/freevspro.php:174
+msgid "Create combo coupons"
+msgstr "Von Gutscheinen ausschließen"
+
+#: admin/freevspro/freevspro.php:175
+msgid "Coupon style customization"
+msgstr "Coupon Styling"
+
+#: admin/freevspro/freevspro.php:176
+msgid "Create and display count down discount sales banner"
+msgstr "Countdown-Rabatt-Verkaufsbanner erstellen und anzeigen"
+
+#: admin/freevspro/freevspro.php:177
+msgid "Offer give away coupons"
+msgstr "Gutscheine verschenken"
+
+#: admin/freevspro/freevspro.php:178
+#: admin/freevspro/views/comparison-table.php:137
+msgid "Add coupon expiry in days"
+msgstr "Gutscheinablauf in Tagen hinzufügen"
+
+#: admin/freevspro/views/bottom-banner.php:3
+msgid ""
+"Upgrade to Smart Coupons for WooCommerce Premium to get hold of advanced "
+"features."
+msgstr ""
+"Upgrade auf Smart Coupons für WooCommerce Premium, um erweiterte Funktionen "
+"zu erhalten."
+
+#: admin/freevspro/views/bottom-banner.php:6
+#: admin/freevspro/views/goto-pro.php:91
+msgid "UPGRADE TO PREMIUM"
+msgstr "AUF PREMIUM UPGRADEN"
+
+#: admin/freevspro/views/comparison-table.php:16
+msgid "Give away"
+msgstr "Produkte verschenken"
+
+#: admin/freevspro/views/comparison-table.php:17
+msgid "URL coupons"
+msgstr "URL-Gutschein"
+
+#: admin/freevspro/views/comparison-table.php:20
+#: admin/partials/_upgrade_to_pro_metabox.php:28
+msgid "Purchase history-based coupons"
+msgstr "Kaufhistorienbasierte Coupons"
+
+#: admin/freevspro/views/comparison-table.php:21
+msgid "Store credit"
+msgstr "Shop-Guthaben"
+
+#: admin/freevspro/views/comparison-table.php:22
+msgid "Gift coupons"
+msgstr "Sie haben Geschenkgutscheine erhalten"
+
+#: admin/freevspro/views/comparison-table.php:23
+#: admin/partials/_upgrade_to_pro_metabox.php:32
+msgid "Sign-up coupons"
+msgstr "Anmeldecoupons"
+
+#: admin/freevspro/views/comparison-table.php:24
+#: admin/partials/_upgrade_to_pro_metabox.php:31
+msgid "Cart abandonment coupons"
+msgstr "Gutscheine für Warenkorbabbruch"
+
+#: admin/freevspro/views/comparison-table.php:25
+msgid "Combo coupons"
+msgstr "Coupon"
+
+#: admin/freevspro/views/comparison-table.php:31
+msgid "Give away (multiple products)"
+msgstr "Produkte verschenken"
+
+#: admin/freevspro/views/comparison-table.php:37
+msgid "Shipping method"
+msgstr "Versandart"
+
+#: admin/freevspro/views/comparison-table.php:38
+msgid "Payment method"
+msgstr "Zahlungsmethode"
+
+#: admin/freevspro/views/comparison-table.php:39
+msgid "User roles"
+msgstr "Benutzerrolle"
+
+#: admin/freevspro/views/comparison-table.php:40
+msgid "Product quantity"
+msgstr "Produktmenge"
+
+#: admin/freevspro/views/comparison-table.php:41
+msgid "Product subtotal"
+msgstr "Erneuerung Produktrabatt"
+
+#: admin/freevspro/views/comparison-table.php:45
+msgid "Country"
+msgstr "Land"
+
+#: admin/freevspro/views/comparison-table.php:61
+msgid "Supported coupon types"
+msgstr "Unterstützte Coupontypen"
+
+#: admin/freevspro/views/comparison-table.php:66
+msgid "Applicable coupon restrictions"
+msgstr "Anwendbare Rollen"
+
+#: admin/freevspro/views/comparison-table.php:71
+#: public/class-wt-smart-coupon-auto-coupon.php:47
+msgid "Apply coupon automatically"
+msgstr "Gutschein automatisch anwenden"
+
+#: admin/freevspro/views/comparison-table.php:76
+msgid "Duplicate coupons"
+msgstr "Duplizieren"
+
+#: admin/freevspro/views/comparison-table.php:81
+msgid "Set a coupon start date"
+msgstr "Coupon Startdatum"
+
+#: admin/freevspro/views/comparison-table.php:86
+msgid "Select page(s) to display applicable coupons"
+msgstr "Seite(n) auswählen, um anwendbare Coupons anzuzeigen"
+
+#: admin/freevspro/views/comparison-table.php:88
+#: admin/freevspro/views/comparison-table.php:91
+msgid "My account page"
+msgstr "„Mein Konto“ Seite"
+
+#: admin/freevspro/views/comparison-table.php:92
+msgid "Cart"
+msgstr "Wagen"
+
+#: admin/freevspro/views/comparison-table.php:97
+msgid "Coupon styling"
+msgstr "Coupon Styling"
+
+#: admin/freevspro/views/comparison-table.php:102
+msgid "Coupon templates"
+msgstr "Coupon Startdatum"
+
+#: admin/freevspro/views/comparison-table.php:103
+msgid "Standard"
+msgstr "Standard"
+
+#: admin/freevspro/views/comparison-table.php:104
+msgid "Multiple options"
+msgstr "Mehrfach-Optionen"
+
+#: admin/freevspro/views/comparison-table.php:107
+msgid "Set discount for giveaway products"
+msgstr "Rabatt für Werbegeschenke festlegen"
+
+#: admin/freevspro/views/comparison-table.php:112
+msgid "Option to apply tax after discount (give away products)"
+msgstr "Option, Steuern nach Rabatt zu erheben (Produkte verschenken)"
+
+#: admin/freevspro/views/comparison-table.php:127
+msgid "Supports coupon shortcodes"
+msgstr "Unterstützt Coupon-Shortcodes"
+
+#: admin/freevspro/views/comparison-table.php:132
+msgid "Display count down discount sales banner"
+msgstr "Countdown-Rabatt-Verkaufsbanner anzeigen"
+
+#: admin/freevspro/views/comparison-table.php:142
+msgid "Supports custom coupon code format (prefix, suffix, length)"
+msgstr ""
+"Unterstützt benutzerdefiniertes Gutscheincodeformat (Präfix, Suffix, Länge)"
+
+#: admin/freevspro/views/comparison-table.php:147
+msgid "Custom endpoints and endpoint title for coupon listing page"
+msgstr ""
+"Benutzerdefinierte Endpunkte und Endpunkttitel für die Seite mit der "
+"Couponauflistung"
+
+#: admin/freevspro/views/comparison-table.php:183
+msgid "FEATURES"
+msgstr "FEATURES"
+
+#: admin/freevspro/views/comparison-table.php:184
+msgid "FREE"
+msgstr "KOSTENLOS"
+
+#: admin/freevspro/views/comparison-table.php:185
+msgid "PREMIUM"
+msgstr "PREMIUM"
+
+#: admin/freevspro/views/goto-pro.php:76
+#: admin/partials/_upgrade_to_pro_metabox.php:37
+msgid "Upgrade to premium"
+msgstr "Upgrade zu Premium"
+
+#: admin/freevspro/views/goto-pro.php:80
+msgid "30 day money back guarantee"
+msgstr "30 Tage Geld-zurück-Garantie"
+
+#: admin/freevspro/views/goto-pro.php:84
+msgid "Fast and superior support"
+msgstr "Schnelle und überlegene Unterstützung"
+
+#: admin/freevspro/views/goto-pro.php:88
+msgid "Features that every site needs"
+msgstr "Funktionen, die jede Website braucht"
+
+#: admin/modules/coupon_shortcode/coupon_shortcode.php:51
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/modules/limit_max_discount/limit_max_discount.php:75
+msgid "Maximum discount value"
+msgstr "Maximaler Rabattwert"
+
+#: admin/modules/limit_max_discount/limit_max_discount.php:76
+msgid "Unlimited discount"
+msgstr "Unbegrenzter Rabatt"
+
+#: admin/modules/limit_max_discount/limit_max_discount.php:77
+msgid ""
+"Use this option to set a cap on the discount value especially for percentage "
+"discounts. e.g, you may provide a 5 percentage discount coupon for a product "
+"but with a maximum discount upto $10."
+msgstr ""
+"Verwenden Sie diese Option, um eine Obergrenze für den Rabattwert "
+"festzulegen, insbesondere für prozentuale Rabatte. Beispielsweise können Sie "
+"einen 5-Prozent-Rabattcoupon für ein Produkt bereitstellen, jedoch mit einem "
+"maximalen Rabatt von bis zu 10 USD."
+
+#: admin/modules/url_coupon/url_coupon.php:112
+msgid "Coupon URL:"
+msgstr "Coupon"
+
+#: admin/modules/url_coupon/url_coupon.php:112
+msgid "Copy to clipboard"
+msgstr "In die Zwischenablage kopieren"
+
+#: admin/modules/url_coupon/url_coupon.php:149
+#: admin/modules/url_coupon/url_coupon.php:154
+#: admin/modules/url_coupon/views/_tab_data.php:14
+msgid "URL coupon"
+msgstr "URL-Gutschein"
+
+#: admin/modules/url_coupon/views/_tab_data.php:15
+msgid ""
+"The plugin auto generates a unique URL for all the coupons created in your "
+"store. Visiting the URL associated with a coupon will automatically redirect "
+"the users to the cart page by applying the coupon. You can embed a URL in a "
+"button, and your customer can click the button to apply the coupon."
+msgstr ""
+"Das Plugin generiert automatisch eine eindeutige URL für alle in Ihrem Shop "
+"erstellten Coupons. Beim Aufrufen der mit einem Coupon verknüpften URL "
+"werden die Benutzer automatisch auf die Warenkorbseite umgeleitet, indem der "
+"Coupon angewendet wird. Sie können eine URL in eine Schaltfläche einbetten, "
+"und Ihr Kunde kann auf die Schaltfläche klicken, um den Gutschein anzuwenden."
+
+#: admin/modules/url_coupon/views/_tab_data.php:17
+msgid "Prerequisite:"
+msgstr "Voraussetzung:"
+
+#: admin/modules/url_coupon/views/_tab_data.php:17
+msgid ""
+"Ensure that you have created a coupon with the required configuration to use "
+"it as a URL coupon."
+msgstr ""
+"Stellen Sie sicher, dass Sie einen Coupon mit der erforderlichen "
+"Konfiguration erstellt haben, um ihn als URL-Coupon zu verwenden."
+
+#: admin/modules/url_coupon/views/_tab_data.php:19
+msgid "URL coupon format:"
+msgstr "Coupon-Format"
+
+#: admin/modules/url_coupon/views/_tab_data.php:22
+msgid "A sample URL coupon will be in the given format:"
+msgstr "Ein Beispiel-URL-Coupon hat das angegebene Format:"
+
+#: admin/modules/url_coupon/views/_tab_data.php:24
+msgid "In the above example,"
+msgstr "Im obigen Beispiel ist"
+
+#: admin/modules/url_coupon/views/_tab_data.php:26
+msgid "corresponds to the site URL"
+msgstr "entspricht der Site-URL"
+
+#: admin/modules/url_coupon/views/_tab_data.php:27
+msgid "'?wt_coupon' refers to the URL coupon key"
+msgstr "'?wt_coupon' bezieht sich auf den URL-Gutscheinschlüssel"
+
+#: admin/modules/url_coupon/views/_tab_data.php:28
+msgid "'flat30' is the coupon code"
+msgstr "Länge des Gutscheincodes"
+
+#: admin/modules/url_coupon/views/_tab_data.php:34
+msgid "Get coupon URL"
+msgstr "Gutschein erstellen"
+
+#: admin/modules/url_coupon/views/_tab_data.php:37
+msgid ""
+"Enter the coupon code of an already created coupon in the field provided. "
+"The URL will be automatically generated for you."
+msgstr ""
+"Geben Sie den Gutscheincode eines bereits erstellten Gutscheins in das dafür "
+"vorgesehene Feld ein. Die URL wird automatisch für Sie generiert."
+
+#: admin/modules/url_coupon/views/_tab_data.php:40
+msgid "Type coupon code"
+msgstr "Gutscheincode"
+
+#: admin/modules/url_coupon/views/_tab_data.php:43
+msgid ""
+"Visiting a URL coupon ensures that the underlying coupon is applied as per "
+"its respective configuration."
+msgstr ""
+"Durch den Besuch eines URL-Coupons wird sichergestellt, dass der zugrunde "
+"liegende Coupon gemäß seiner jeweiligen Konfiguration angewendet wird."
+
+#: admin/modules/url_coupon/views/_tab_data.php:44
+msgid "e.g allow discount, giveaway free product whatever the case maybe."
+msgstr ""
+"z.B. Rabatt gewähren, kostenloses Produkt verschenken, was auch immer der "
+"Fall ist."
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:24
+msgid "Make the most out of URL coupons with URL coupons Pro"
+msgstr "Machen Sie das Beste aus URL-Coupons mit URL-Coupons Pro"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:34
+msgid "Custom URLs"
+msgstr "Benutzerdefinierte URLs"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:34
+msgid "Generate customized coupon URLs (example:www.mystore.com/happybirthday)"
+msgstr ""
+"Möglichkeit zum Erstellen einer benutzerdefinierten URL mit personalisiertem "
+"Text. Zum Beispiel www.mystore.com/happybirthday"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:40
+msgid "Set up a redirect page"
+msgstr "Richten Sie eine Weiterleitungsseite ein"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:40
+msgid ""
+"Configure the URL to redirect to either cart or checkout page when it is "
+"clicked."
+msgstr ""
+"Konfigurieren Sie die URL so, dass sie beim Anklicken entweder zum Warenkorb "
+"oder zur Checkout-Seite weitergeleitet wird."
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:50
+msgid "Create QR code coupons"
+msgstr "QR-Code-Gutscheine erstellen"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:50
+msgid "Embed URL coupons in QRCodes to create QR code coupons."
+msgstr "Einbetten des URL-Gutscheins in einen QRCode"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:56
+msgid "Automatically add products"
+msgstr "Produkte automatisch hinzufügen"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:56
+msgid ""
+"Assign a product to the URL to be automatically added to the customer’s cart "
+"upon activating it."
+msgstr ""
+"Weisen Sie der URL ein Produkt zu, das beim Aktivieren automatisch in den "
+"Warenkorb des Kunden gelegt wird."
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:64
+msgid "Upgrade to URL coupons Pro"
+msgstr "Upgrade auf URL-Gutscheine Pro"
+
+#: admin/partials/_upgrade_to_pro_metabox.php:26
+msgid "Store credits"
+msgstr "Guthaben speichern"
+
+#: admin/partials/_upgrade_to_pro_metabox.php:27
+msgid "Free gifts"
+msgstr "Gratis Geschenkartikel"
+
+#: admin/partials/_upgrade_to_pro_metabox.php:29
+msgid "Restrict coupons by country"
+msgstr "Gutscheine nach Land einschränken"
+
+#: admin/partials/_upgrade_to_pro_metabox.php:33
+msgid "Count-down sales banner"
+msgstr "Countdown-Verkaufsbanner"
+
+#: admin/partials/wt-smart-coupon-admin-display.php:22
+msgid "Get access to advanced features of Smart coupon."
+msgstr "Erhalten Sie Zugriff auf die erweiterten Funktionen von Smart Coupon."
+
+#: admin/partials/wt-smart-coupon-admin-display.php:29
+msgid "30 Day Money Back Guarantee"
+msgstr "30 Tage Geld-zurück-Garantie"
+
+#: admin/partials/wt-smart-coupon-admin-display.php:37
+msgid "Fast and Superior Support"
+msgstr "Schnelle und überlegene Unterstützung"
+
+#: admin/partials/wt-smart-coupon-admin-display.php:42
+msgid "Upgrade to Premium"
+msgstr "Upgrade auf Premium"
+
+#: admin/partials/wt-smart-coupon-admin-display.php:47
+msgid "Premium features"
+msgstr "Premium-Funktionen"
+
+#: admin/partials/wt-smart-coupon-admin-display.php:49
+#, php-format
+msgid ""
+"%sOffer store credits%s: Create and sell store credits of custom or pre-"
+"defined amounts."
+msgstr ""
+"%sShop-Guthaben anbieten%s: Erstellen und verkaufen Sie Shop-Guthaben in "
+"benutzerdefinierten oder vordefinierten Beträgen."
+
+#: admin/partials/wt-smart-coupon-admin-display.php:50
+#, php-format
+msgid ""
+"%sGift cards%s: Create attractive gift cards of any amount range by "
+"associating a store credit product."
+msgstr ""
+"Erstellen und gestalten Sie Geschenkgutscheine in einem beliebigen "
+"Betragsbereich, indem Sie ein Produkt für die Gutschrift eines Geschäfts "
+"zuordnen."
+
+#: admin/partials/wt-smart-coupon-admin-display.php:51
+#, php-format
+msgid ""
+"%sGive away products (one or more)%s: Configure coupons that give away "
+"selected product(s)."
+msgstr ""
+"%sProdukte verschenken (ein oder mehrere)%s: Konfigurieren Sie Coupons, die "
+"ausgewählte Produkte verschenken."
+
+#: admin/partials/wt-smart-coupon-admin-display.php:52
+#, php-format
+msgid ""
+"%sCoupons based on past purchases%s: Create and offer first order, next "
+"order, or any nth order discounts."
+msgstr ""
+"%sGutscheine basierend auf früheren Einkäufen%s: Erstellen und bieten Sie "
+"Rabatte für die erste Bestellung, die nächste Bestellung oder jede n-te "
+"Bestellung an."
+
+#: admin/partials/wt-smart-coupon-admin-display.php:53
+#, php-format
+msgid ""
+"%sRestrict coupons by country%s: Allow discounts for users from selected "
+"countries/locations."
+msgstr ""
+"%sGutscheine nach Land einschränken%s: Rabatte für Nutzer aus ausgewählten "
+"Ländern/Standorten zulassen."
+
+#: admin/partials/wt-smart-coupon-admin-display.php:54
+#, php-format
+msgid "%sSign-up coupons%s: Create and offer sign-up discount coupons."
+msgstr ""
+"%sAnmeldegutscheine%s: Erstellen und bieten Sie Rabattgutscheine für die "
+"Anmeldung an."
+
+#: admin/partials/wt-smart-coupon-admin-display.php:55
+#, php-format
+msgid ""
+"%sCart abandonment coupons%s: Configure cart abandonment coupons to regain "
+"abandoned carts."
+msgstr ""
+"%sWarenkorb-Abbruchgutscheine%s: Konfigurieren Sie Warenkorb-"
+"Abbruchgutscheine, um aufgegebene Warenkörbe wiederzugewinnen."
+
+#: admin/partials/wt-smart-coupon-admin-display.php:56
+#, php-format
+msgid ""
+"%sCustomizable count-down sales banner%s: Easily create a count-down "
+"discount banner by choosing a template."
+msgstr ""
+"%sAnpassbares Countdown-Verkaufsbanner%s: Erstellen Sie ganz einfach ein "
+"Countdown-Rabattbanner, indem Sie eine Vorlage auswählen."
+
+#: admin/partials/wt-smart-coupon-admin-display.php:57
+#, php-format
+msgid ""
+"%sBulk generate coupons%s: Generate and manage bulk coupons with add to "
+"store/email/ export to CSV options."
+msgstr ""
+"Generieren und verwalten Sie Massencoupons mit Optionen zum Hinzufügen zum "
+"Speichern / E-Mailen / Exportieren in CSV."
+
+#: admin/partials/wt-smart-coupon-admin-display.php:58
+#, php-format
+msgid ""
+"%sImport-export coupons%s: Import and export coupons simultaneously by "
+"emailing them directly to the recipients."
+msgstr ""
+"Bereitstellung zum Hochladen und Importieren von Gutscheinen, indem diese "
+"gleichzeitig direkt per E-Mail an die Empfänger gesendet werden."
+
+#: admin/partials/wt-smart-coupon-admin-display.php:59
+#, php-format
+msgid "%sCoupon embeds%s: Shortcode for displaying coupons on any page."
+msgstr "Shortcode zum Anzeigen des Gutscheins auf einer beliebigen Seite."
+
+#: admin/partials/wt-smart-coupon-admin-display.php:60
+#, php-format
+msgid "%sCombo coupons%s: Provision to use combo coupons for purchase."
+msgstr "Bereitstellung zur Verwendung des Combo-Gutscheins für den Kauf."
+
+#: admin/partials/wt-smart-coupon-admin-display.php:70
+#, php-format
+msgid "If you like the plugin please leave us a %s review"
+msgstr ""
+"Wenn Ihnen das Plugin gefällt, hinterlassen Sie uns bitte eine Bewertung von "
+"%s"
+
+#: admin/partials/wt-smart-coupon-admin-display.php:70
+msgid "Thanks for the review."
+msgstr "Danke für die Bewertung."
+
+#: admin/url-coupon/class-wt-smart-coupon-url-coupon.php:28
+#: public/class-wt-smart-coupon-auto-coupon.php:420
+msgid "Coupon code applied successfully"
+msgstr "Gutscheincode erfolgreich angewendet"
+
+#: admin/url-coupon/class-wt-smart-coupon-url-coupon.php:33
+#, php-format
+msgid "Oops your cart is empty! Add %1$s to your cart to avail the offer."
+msgstr ""
+"Ups, dein Einkaufswagen ist leer! Fügen Sie%1$s zu Ihrem Warenkorb hinzu, um "
+"das Angebot zu nutzen."
+
+#: admin/url-coupon/class-wt-smart-coupon-url-coupon.php:33
+msgid "products"
+msgstr "produktes"
+
+#: admin/views/_help_links_meta_box.php:13
+msgid "Create 'Seasonal Discount' offer"
+msgstr "Erstellen Sie ein saisonales Rabattangebot"
+
+#: admin/views/_help_links_meta_box.php:17
+msgid "Auto apply coupons on checkout"
+msgstr "Gutscheine automatisch an der Kasse anwenden"
+
+#: admin/views/_help_links_meta_box.php:21
+msgid "Offer 'Giveaway'"
+msgstr "Gutscheine verschenken"
+
+#: admin/views/_help_links_meta_box.php:25
+msgid "Buy X Get Y discounts"
+msgstr "X kaufen und Y-Rabatte erhalten"
+
+#: admin/views/_help_links_meta_box.php:29
+msgid "Offer discount based on Shipping/Payment/User role"
+msgstr "Rabatt basierend auf Versand/Zahlung/Benutzerrolle anbieten"
+
+#: admin/views/_help_links_meta_box.php:41
+msgid "Here are a few links that explains types of offers you can create."
+msgstr ""
+"Hier sind einige Links, die die Arten von Angeboten erklären, die Sie "
+"erstellen können."
+
+#: admin/views/_help_links_meta_box.php:58
+msgid "To know more, read "
+msgstr "Weitere Informationen finden Sie unter"
+
+#: admin/views/_help_links_meta_box.php:60
+msgid "documentation"
+msgstr "Dokumentation"
+
+#: admin/wt-help/wt-smart-coupon-help.php:17
+msgid "Help"
+msgstr "Hilfe"
+
+#: admin/wt-help/wt-smart-coupon-help.php:39
+msgid "Refer to our documentation to set up and get started"
+msgstr ""
+"Informationen zum Einstellen und Starten finden Sie in unserer Dokumentation "
+"(Pro-Version)"
+
+#: admin/wt-help/wt-smart-coupon-help.php:46
+msgid "Help and Support"
+msgstr "Hilfe und Support"
+
+#: admin/wt-help/wt-smart-coupon-help.php:47
+msgid "We would love to help you on any queries or issues."
+msgstr "Wir helfen Ihnen gerne bei Fragen oder Problemen."
+
+#: admin/wt-help/wt-smart-coupon-help.php:49
+msgid "Contact Us"
+msgstr "Kontaktieren Sie uns"
+
+#: common/modules/coupon_category/coupon_category.php:58
+#: common/modules/coupon_category/coupon_category.php:164
+msgid "Categories"
+msgstr "Kategorien"
+
+#: common/modules/coupon_category/coupon_category.php:111
+msgid "Select category"
+msgstr "Kategorie wählen"
+
+#: common/modules/coupon_category/coupon_category.php:154
+msgctxt "Taxonomy General Name"
+msgid "Categories"
+msgstr "Kategorien"
+
+#: common/modules/coupon_category/coupon_category.php:155
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr "Kategorie"
+
+#: common/modules/coupon_category/coupon_category.php:156
+msgid "Search categories"
+msgstr "Kategorien suchen"
+
+#: common/modules/coupon_category/coupon_category.php:157
+msgid "All categories"
+msgstr "Alle Kategorien"
+
+#: common/modules/coupon_category/coupon_category.php:158
+msgid "Parent category"
+msgstr "Übergeordnete Kategorie"
+
+#: common/modules/coupon_category/coupon_category.php:159
+msgid "Parent category:"
+msgstr "Übergeordnete Kategorie:"
+
+#: common/modules/coupon_category/coupon_category.php:160
+msgid "Edit category"
+msgstr "Kategorie bearbeiten"
+
+#: common/modules/coupon_category/coupon_category.php:161
+msgid "Update category"
+msgstr "Kategorie aktualisieren"
+
+#: common/modules/coupon_category/coupon_category.php:162
+msgid "Add new category"
+msgstr "Neue Kategorie hinzufügen"
+
+#: common/modules/coupon_category/coupon_category.php:163
+msgid "New category name"
+msgstr "Neuer Kategoriename"
+
+#: common/modules/coupon_category/coupon_category.php:165
+msgid "View category"
+msgstr "Kategorie anzeigen"
+
+#: common/modules/coupon_category/coupon_category.php:166
+msgid "Popular categories"
+msgstr "Beliebte Kategorien"
+
+#: common/modules/coupon_category/coupon_category.php:167
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+#: common/modules/coupon_category/coupon_category.php:168
+msgid "Most used"
+msgstr "Häufig genutzte"
+
+#: common/modules/coupon_shortcode/coupon_shortcode.php:47
+#: common/modules/coupon_shortcode/coupon_shortcode.php:53
+#: common/modules/coupon_shortcode/coupon_shortcode.php:58
+msgid "Invalid coupon"
+msgstr "Ungültiger Gutschein"
+
+#: includes/class-wt-smart-coupon-activator.php:39
+msgid "Oops! Woocommerce not activated.."
+msgstr "Hoppla! Woocommerce nicht aktiviert .."
+
+#: includes/class-wt-smart-coupon-activator.php:45
+msgid ""
+"Oops! PREMIUM Version of this Plugin Installed. Please deactivate the "
+"PREMIUM Version before activating BASIC."
+msgstr ""
+"Hoppla! PREMIUM Version dieses Plugins installiert. Bitte deaktivieren Sie "
+"die PREMIUM-Version, bevor Sie BASIC aktivieren."
+
+#: includes/class-wt-smart-coupon-review_request.php:52
+#, php-format
+msgid ""
+"Hey, we at %sWebToffee%s would like to thank you for using our plugin. We "
+"would really appreciate if you could take a moment to drop a quick review "
+"that will inspire us to keep going."
+msgstr ""
+"Hey, wir bei %sWebToffee%s möchten uns bei Ihnen für die Verwendung unseres "
+"Plugins bedanken. Wir würden uns sehr freuen, wenn Sie sich einen Moment "
+"Zeit nehmen könnten, um eine kurze Bewertung abzugeben, die uns dazu "
+"inspirieren wird, weiterzumachen."
+
+#: includes/class-wt-smart-coupon-review_request.php:55
+msgid "Remind me later"
+msgstr "Erinnere mich später"
+
+#: includes/class-wt-smart-coupon-review_request.php:56
+msgid "Not interested"
+msgstr "Kein Interesse"
+
+#: includes/class-wt-smart-coupon-review_request.php:57
+msgid "Review now"
+msgstr "Jetzt bewerten"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:19
+msgid "Used it successfully. Don't need anymore."
+msgstr "Erfolgreich eingesetzt. Ich brauche nicht mehr."
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:21
+msgid "Have used it successfully and aint in need of it anymore"
+msgstr "Habe es erfolgreich benutzt und brauche es nicht mehr"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:25
+msgid "I couldn't understand how to make it work"
+msgstr "Ich habe nicht verstanden, wie es funktioniert"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:27
+msgid "Would you like us to assist you?"
+msgstr "Möchtest Du Hilfe?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:31
+msgid "I found a better plugin"
+msgstr "Ich fand ein besseres Plugin"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:33
+msgid "Which plugin?"
+msgstr "Welches Plugin?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:37
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+"Das Plugin ist großartig, aber ich brauche besondere Funktionen, die das "
+"PlugIn nicht bietet"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:39
+msgid "Could you tell us more about that feature?"
+msgstr "Können Sie uns mehr über dieses Feature erzählen?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:43
+msgid "The plugin is not working"
+msgstr "Das PlugIn funktioniert nicht"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:45
+msgid "Could you tell us a bit more whats not working?"
+msgstr "Können Sie uns mehr dazu sagen, was nicht funktioniert?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:49
+msgid "It's not what I was looking for"
+msgstr "Es ist nicht das, was ich suchte"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:55
+msgid "The plugin didn't work as expected"
+msgstr "Das PlugIn funktioniert nicht wie erwartet"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:57
+msgid "What did you expect?"
+msgstr "Was haben Sie erwartet?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:61
+msgid "Other"
+msgstr "Sonstiges"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:63
+msgid "Could you tell us a bit more?"
+msgstr "Könnten Sie uns noch etwas mehr erzählen?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:82
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr ""
+"Wenn Du einen Moment Zeit hast, lass uns wissen, warum Du das Plugin "
+"deaktivieren möchtest:"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:93
+msgid ""
+"We do not collect any personal data when you submit this form. It's your "
+"feedback that we value."
+msgstr ""
+"Wir sammeln keine persönlichen Daten. Es ist Dein Feedback das wir schätzen."
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:94
+msgid "Privacy Policy"
+msgstr "Datenschutzerklärung"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:98
+msgid "I rather wouldn't say"
+msgstr "Ich würde das lieber nicht sagen"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:99
+msgid "Contact Support"
+msgstr "Support kontaktieren"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:100
+msgid "Submit & Deactivate"
+msgstr "Einreichen & Deaktivieren"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:101
+msgid "Cancel"
+msgstr "Stornieren"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:183
+msgid "Deactivate and leave a review"
+msgstr "Deaktivieren Sie und hinterlassen Sie eine Bewertung"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:185
+msgid "Let our support team help you"
+msgstr "Lassen Sie sich von unserem Support-Team helfen"
+
+#: public/class-myaccount-smart-coupon.php:50
+#: public/class-myaccount-smart-coupon.php:63
+msgid "My Coupons"
+msgstr "Meine Gutscheine"
+
+#: public/class-wt-smart-coupon-auto-coupon.php:49
+msgid ""
+"This coupon will be applied automatically if the specifications are met. The "
+"corresponding coupon description will be shown when the coupon is applied, "
+"only 5 coupons will be applied automatically, rest will be ignored."
+msgstr ""
+"Dieser Gutschein wird automatisch angewendet, wenn die Spezifikationen "
+"erfüllt sind. Die entsprechende Couponbeschreibung wird angezeigt, wenn der "
+"Coupon angewendet wird. Es werden nur 5 Coupons automatisch angewendet. Der "
+"Rest wird ignoriert."
+
+#: public/class-wt-smart-coupon-auto-coupon.php:493
+msgid "Free shipping coupon"
+msgstr "Kostenloser Versandgutschein"
+
+#: public/class-wt-smart-coupon-public.php:139
+msgid "Sorry, this coupon is not applicable to selected shipping method"
+msgstr "Dieser Gutschein gilt leider nicht für die ausgewählte Versandart"
+
+#: public/class-wt-smart-coupon-public.php:155
+msgid "Sorry, this coupon is not applicable to selected Payment method"
+msgstr "Dieser Gutschein gilt leider nicht für die ausgewählte Zahlungsmethode"
+
+#: public/class-wt-smart-coupon-public.php:170
+msgid "Sorry, this coupon is not applicable for your Role"
+msgstr "Dieser Gutschein gilt leider nicht für Ihre Rolle"
+
+#: public/class-wt-smart-coupon-public.php:196
+#: public/class-wt-smart-coupon-public.php:225
+msgid "Sorry, this coupon is not applicable to selected products."
+msgstr "Dieser Gutschein ist nicht auf die ausgewählten Produkte anwendbar."
+
+#: public/class-wt-smart-coupon-public.php:240
+#, php-format
+msgid "The minimum quantity of matching products for this coupon is %s."
+msgstr "Die Mindestmenge an passenden Produkten für diesen Coupon beträgt%s."
+
+#: public/class-wt-smart-coupon-public.php:247
+#, php-format
+msgid "The maximum quantity of matching products for this coupon is %s."
+msgstr "Die maximale Anzahl passender Produkte für diesen Coupon beträgt%s."
+
+#: public/class-wt-smart-coupon-public.php:262
+#, php-format
+msgid "The minimum subtotal of matching products for this coupon is %d."
+msgstr ""
+"Die minimale Zwischensumme der passenden Produkte für diesen Gutschein "
+"beträgt% d."
+
+#: public/class-wt-smart-coupon-public.php:269
+#, php-format
+msgid "The maximum subtotal of matching products for this coupon is %d."
+msgstr ""
+"Die maximale Zwischensumme der passenden Produkte für diesen Gutschein "
+"beträgt% d."
+
+#: public/class-wt-smart-coupon-public.php:381
+msgid "Congrats you got a free gift!!"
+msgstr "Herzlichen Glückwunsch, Sie haben ein kostenloses Geschenk!"
+
+#: public/class-wt-smart-coupon-public.php:609
+msgid "It's a free gift for you"
+msgstr "Es ist ein kostenloses Geschenk für Sie"
+
+#: public/class-wt-smart-coupon-public.php:681
+msgid "Free Gift Item"
+msgstr "Gratis Geschenkartikel"
+
+#: public/class-wt-smart-coupon-public.php:702
+msgid "free_product"
+msgstr "free_product"
+
+#: public/class-wt-smart-coupon-public.php:734
+msgid "Free Product:"
+msgstr "Kostenloses Produkt:"
+
+#: public/class-wt-smart-coupon-public.php:783
+#: public/class-wt-smart-coupon-public.php:798
+msgid "Cart Discount"
+msgstr "Erneuerung Warenkorbrabatt"
+
+#: public/class-wt-smart-coupon-public.php:788
+#: public/class-wt-smart-coupon-public.php:793
+msgid "Product Discount"
+msgstr "Erneuerung Produktrabatt"
+
+#: public/class-wt-smart-coupon-public.php:837
+msgid "Starts on "
+msgstr "Beginnt am "
+
+#: public/class-wt-smart-coupon-public.php:837
+msgid "Expires on "
+msgstr "Läuft ab "
+
+#: public/templates/myaccount/my-account-coupon-view.php:33
+msgid "Available Coupons"
+msgstr "Verfügbare Gutscheine"
+
+#: public/templates/myaccount/my-account-coupon-view.php:45
+msgid "Sorry you don't have any available coupons"
+msgstr "Leider haben Sie keine verfügbaren Gutscheine"
+
+#: public/templates/myaccount/my-account-coupon-view.php:56
+msgid "Used / Expired Coupons"
+msgstr "Gebrauchte / abgelaufene Gutscheine"
+
+#: public/templates/myaccount/my-account-coupon-view.php:111
+msgid "Expired"
+msgstr "Abgelaufen"
+
+#: public/templates/myaccount/my-account-coupon-view.php:120
+msgid "Sorry no coupon to display"
+msgstr "Leider kein Gutschein zum Anzeigen"
+
+#: wt-smart-coupon.php:96
+msgid ""
+"WooCommerce is required for this plugin to work properly. Please activate "
+"WooCommerce."
+msgstr ""
+"WooCommerce ist erforderlich, damit dieses Plugin ordnungsgemäß "
+"funktioniert. Bitte aktivieren Sie WooCommerce."
+
+#. Description of the plugin/theme
+msgid ""
+"Smart Coupons for WooCommerce plugin adds advanced coupon features to your "
+"store to strengthen your marketing efforts and boost sales."
+msgstr ""
+"Das Smart Coupons for WooCommerce-Plugin fügt Ihrem Shop erweiterte Coupon-"
+"Funktionen hinzu, um Ihre Marketingbemühungen zu stärken und den Umsatz zu "
+"steigern."
+
+#. Author of the plugin/theme
+msgid "WebToffee"
+msgstr "WebToffee"
+
+#. Author URI of the plugin/theme
+msgid "https://www.webtoffee.com/"
+msgstr "https://www.webtoffee.com/"
+
+#~ msgid "Show in My account"
+#~ msgstr "In meinem Konto anzeigen"
+
+#~ msgid "Expires Today "
+#~ msgstr "Verfällt heute "
+
+#~ msgid "Expires in "
+#~ msgstr "Verfällt in "
+
+#~ msgid " days"
+#~ msgstr " tags"
+
+#~ msgid "Starts today "
+#~ msgstr "Beginnt heute "
+
+#~ msgid "Starts in "
+#~ msgstr "Beginnt am "
+
+#~ msgid "Give away Products"
+#~ msgstr "Produkte verschenken"
+
+#~ msgid "Coupon Styling"
+#~ msgstr "Coupon Styling"
+
+#~ msgid "Forground Color"
+#~ msgstr "Grundfarbe"
+
+#~ msgid ""
+#~ "URL Coupons help you add a unique URL to any coupon in your e-commerce "
+#~ "store. Clicking this URL ensures that the underlying coupon is applied as "
+#~ "per its respective configuration e.g allow discount, giveaway free "
+#~ "product whatever the case maybe."
+#~ msgstr ""
+#~ "Mithilfe von URL-Gutscheinen können Sie jedem Gutschein in Ihrem E-"
+#~ "Commerce-Shop eine eindeutige URL hinzufügen. Durch Klicken auf diese URL "
+#~ "wird sichergestellt, dass der zugrunde liegende Gutschein gemäß der "
+#~ "jeweiligen Konfiguration angewendet wird, z."
+
+#~ msgid "Usage:"
+#~ msgstr "Verwendung:"
+
+#~ msgid "e.g"
+#~ msgstr "z.B"
+
+#~ msgid ""
+#~ "A URL coupon that offers a flat 30 percentage of discount at www."
+#~ "webtoffee.com, coupon_code = FLAT30, site_url(preferably cart page)"
+#~ msgstr ""
+#~ "Ein URL-Gutschein, der unter www.webtoffee.com pauschal 30 Prozent Rabatt "
+#~ "bietet. Coupon_code = FLAT30, site_url (vorzugsweise Warenkorbseite)"
+
+#~ msgid "Instructions"
+#~ msgstr "Anweisungen"
+
+#~ msgid "Upgrade to Premium for More Features"
+#~ msgstr "Upgrade auf Premium für weitere Funktionen"
+
+#~ msgid ""
+#~ "Configure the coupons with extensive usage restrictions and checkout "
+#~ "options"
+#~ msgstr ""
+#~ "Konfigurieren Sie die Gutscheine mit umfangreichen Nutzungsbeschränkungen "
+#~ "und Checkout-Optionen"
+
+#~ msgid ""
+#~ "Create and manage bulk coupons with add to store/email/export to CSV "
+#~ "options"
+#~ msgstr ""
+#~ "Erstellen und verwalten Sie Massengutscheine mit Optionen zum Hinzufügen "
+#~ "zum Speichern / E-Mailen / Exportieren in CSV"
+
+#~ msgid "Giveaway free products with coupons"
+#~ msgstr "Werbegeschenk kostenlose Produkte mit Gutscheinen"
+
+#~ msgid "Import coupons, Duplicate coupons"
+#~ msgstr "Gutscheine importieren, Gutscheine duplizieren"
+
+#~ msgid ""
+#~ "Ability to impose coupon usage restrictions on the basis of the country/"
+#~ "location precisely with shipping or billing address apart from the "
+#~ "default restrictions."
+#~ msgstr ""
+#~ "Möglichkeit, Coupon-Nutzungsbeschränkungen auf der Grundlage des Landes / "
+#~ "Standorts genau mit Versand- oder Rechnungsadresse aufzuerlegen, "
+#~ "abgesehen von den Standardbeschränkungen."
+
+#~ msgid "Giveaway multiple free products with coupons."
+#~ msgstr "Werbegeschenk für mehrere kostenlose Produkte mit Gutscheinen."
+
+#~ msgid ""
+#~ "Manage store credits - create/purchase/transaction history/issue refunds/"
+#~ "email."
+#~ msgstr ""
+#~ "Guthaben verwalten - Erstellen / Kaufen / Transaktionsverlauf / "
+#~ "Rückerstattungen / E-Mail."
+
+#~ msgid ""
+#~ "Categorized view of Active/Used/Expired coupons from My Account > My "
+#~ "Coupon."
+#~ msgstr ""
+#~ "Kategorisierte Ansicht der aktiven / verwendeten / abgelaufenen "
+#~ "Gutscheine unter Mein Konto> Mein Gutschein."
+
+#~ msgid "Option to exclude a product from coupon/s."
+#~ msgstr "Option zum Ausschließen eines Produkts von Gutscheinen."
+
+#~ msgid ""
+#~ "Pass coupon via link that will redirect to the cart/checkout page with "
+#~ "products added into it."
+#~ msgstr ""
+#~ "Übergeben Sie den Gutschein über einen Link, der zur Warenkorb- / "
+#~ "Checkout-Seite mit den hinzugefügten Produkten weiterleitet."
+
+#~ msgid "For advanced URL coupon please check our"
+#~ msgstr "Für erweiterte URL-Gutscheine überprüfen Sie bitte unsere"
+
+#~ msgid "Premium version"
+#~ msgstr "Premium Version"
+
+#~ msgid "Add more options to coupon which gives such wonderful results."
+#~ msgstr ""
+#~ "Fügen Sie dem Coupon weitere Optionen hinzu, die solch wunderbare "
+#~ "Ergebnisse liefern."

@@ -1,0 +1,10 @@
+2022-05-30T15:28:55+00:00 CRITICAL Uncaught TypeError: preg_match_all(): Argument #2 ($subject) must be of type string, array given in C:\xampp\htdocs\yacShop\wp-content\plugins\complianz-gdpr\proof-of-consent\class-proof-of-consent.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yacShop\wp-content\plugins\complianz-gdpr\proof-of-consent\class-proof-of-consent.php(347): preg_match_all('/data-category=...', Array, NULL)
+#1 C:\xampp\htdocs\yacShop\wp-includes\class-wp-hook.php(307): cmplz_proof_of_consent->generate_cookie_policy_snapshot()
+#2 C:\xampp\htdocs\yacShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\yacShop\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\yacShop\wp-cron.php(138): do_action_ref_array('cmplz_every_day...', Array)
+#5 {main}
+  thrown in C:\xampp\htdocs\yacShop\wp-content\plugins\complianz-gdpr\proof-of-consent\class-proof-of-consent.php on line 347
+

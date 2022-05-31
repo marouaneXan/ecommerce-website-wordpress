@@ -1,0 +1,93 @@
+2022-05-19T18:44:00+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php:101
+Stack trace:
+#0 C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\currencyr.php(31): Currencyr->__construct()
+#1 C:\xampp\htdocs\yacShop\wp-admin\includes\plugin.php(2288): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yacShop\wp-admin\includes\plugin.php(659): plugin_sandbox_scrape('currencyr/curre...')
+#3 C:\xampp\htdocs\yacShop\wp-admin\plugins.php(58): activate_plugin('currencyr/curre...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php on line 101
+
+2022-05-19T18:44:05+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php:101
+Stack trace:
+#0 C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\currencyr.php(31): Currencyr->__construct()
+#1 C:\xampp\htdocs\yacShop\wp-admin\includes\plugin.php(2288): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yacShop\wp-admin\plugins.php(192): plugin_sandbox_scrape('currencyr/curre...')
+#3 {main}
+  thrown in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php on line 101
+
+2022-05-19T18:44:05+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php:101
+Stack trace:
+#0 C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\currencyr.php(31): Currencyr->__construct()
+#1 C:\xampp\htdocs\yacShop\wp-admin\includes\plugin.php(2288): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yacShop\wp-admin\plugins.php(192): plugin_sandbox_scrape('currencyr/curre...')
+#3 {main}
+  thrown in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php on line 101
+
+2022-05-19T18:45:15+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php:101
+Stack trace:
+#0 C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\currencyr.php(31): Currencyr->__construct()
+#1 C:\xampp\htdocs\yacShop\wp-admin\includes\plugin.php(2288): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yacShop\wp-admin\includes\plugin.php(659): plugin_sandbox_scrape('currencyr/curre...')
+#3 C:\xampp\htdocs\yacShop\wp-admin\plugins.php(58): activate_plugin('currencyr/curre...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php on line 101
+
+2022-05-19T18:45:19+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php:101
+Stack trace:
+#0 C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\currencyr.php(31): Currencyr->__construct()
+#1 C:\xampp\htdocs\yacShop\wp-admin\includes\plugin.php(2288): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yacShop\wp-admin\plugins.php(192): plugin_sandbox_scrape('currencyr/curre...')
+#3 {main}
+  thrown in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php on line 101
+
+2022-05-19T18:45:19+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php:101
+Stack trace:
+#0 C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\currencyr.php(31): Currencyr->__construct()
+#1 C:\xampp\htdocs\yacShop\wp-admin\includes\plugin.php(2288): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yacShop\wp-admin\plugins.php(192): plugin_sandbox_scrape('currencyr/curre...')
+#3 {main}
+  thrown in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php on line 101
+
+2022-05-19T18:45:27+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php:101
+Stack trace:
+#0 C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\currencyr.php(31): Currencyr->__construct()
+#1 C:\xampp\htdocs\yacShop\wp-admin\includes\plugin.php(2288): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yacShop\wp-admin\includes\plugin.php(659): plugin_sandbox_scrape('currencyr/curre...')
+#3 C:\xampp\htdocs\yacShop\wp-admin\plugins.php(58): activate_plugin('currencyr/curre...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php on line 101
+
+2022-05-19T18:45:27+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php:101
+Stack trace:
+#0 C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\currencyr.php(31): Currencyr->__construct()
+#1 C:\xampp\htdocs\yacShop\wp-admin\includes\plugin.php(2288): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yacShop\wp-admin\includes\plugin.php(659): plugin_sandbox_scrape('currencyr/curre...')
+#3 C:\xampp\htdocs\yacShop\wp-admin\plugins.php(58): activate_plugin('currencyr/curre...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php on line 101
+
+2022-05-19T18:45:28+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php:101
+Stack trace:
+#0 C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\currencyr.php(31): Currencyr->__construct()
+#1 C:\xampp\htdocs\yacShop\wp-admin\includes\plugin.php(2288): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yacShop\wp-admin\includes\plugin.php(659): plugin_sandbox_scrape('currencyr/curre...')
+#3 C:\xampp\htdocs\yacShop\wp-admin\plugins.php(58): activate_plugin('currencyr/curre...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php on line 101
+
+2022-05-19T18:45:33+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php:101
+Stack trace:
+#0 C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\currencyr.php(31): Currencyr->__construct()
+#1 C:\xampp\htdocs\yacShop\wp-admin\includes\plugin.php(2288): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yacShop\wp-admin\plugins.php(192): plugin_sandbox_scrape('currencyr/curre...')
+#3 {main}
+  thrown in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php on line 101
+
+2022-05-19T18:45:34+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php:101
+Stack trace:
+#0 C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\currencyr.php(31): Currencyr->__construct()
+#1 C:\xampp\htdocs\yacShop\wp-admin\includes\plugin.php(2288): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yacShop\wp-admin\plugins.php(192): plugin_sandbox_scrape('currencyr/curre...')
+#3 {main}
+  thrown in C:\xampp\htdocs\yacShop\wp-content\plugins\currencyr\libs\class-currencyr.php on line 101
+
